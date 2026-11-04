@@ -1,0 +1,211 @@
+[
+  {
+    "marker": "TABLE1",
+    "caption": "Table 1. Close comparisons and the boundary of the present synthesis.",
+    "headers": [
+      "Prior work",
+      "Established contribution",
+      "Present focus"
+    ],
+    "rows": [
+      [
+        "Nine-tool comparison [6]",
+        "Tool recovery and error comparison, including two recall units",
+        "Preserve units when comparing later classifiers and other tasks."
+      ],
+      [
+        "Android survey and experiment [9]",
+        "Tool taxonomy, adaptation and overlap-based evidence",
+        "Connect incomplete ascertainment with candidate and source denominators."
+      ],
+      [
+        "Cross-platform benchmark [8]",
+        "Broader platforms and tool-assisted benchmark construction",
+        "Compare acquisition and annotation boundaries across source domains."
+      ],
+      [
+        "Duplication audit [10]",
+        "Tests of duplicate and unique contexts",
+        "Connect split relations with the intended transfer claim; no replication claimed."
+      ],
+      [
+        "Recent model studies [11–13,15]",
+        "Models and targeted generalisation or mixed-input evaluation",
+        "Align their metrics, input gates and label semantics; no pooled ranking."
+      ]
+    ]
+  },
+  {
+    "marker": "TABLE2",
+    "caption": "Table 2. Evaluation targets and the evidence needed to interpret them.",
+    "headers": [
+      "Target",
+      "Counting unit and denominator",
+      "Inference boundary"
+    ],
+    "rows": [
+      [
+        "Candidate discrimination",
+        "Labelled candidate records admitted by a gate",
+        "Does not establish coverage outside that gate."
+      ],
+      [
+        "Occurrence recovery",
+        "Annotated secret locations in eligible sources",
+        "Requires a stated source boundary and matching relation."
+      ],
+      [
+        "Credential discovery",
+        "Distinct credential values or defined equivalence groups",
+        "One recovered copy does not imply all locations were found."
+      ],
+      [
+        "Asset pairing",
+        "Credential–asset relationships in the labelled pairing set",
+        "Does not establish all generic credentials have identifiable assets."
+      ],
+      [
+        "Warning response",
+        "Warnings, affected values, or confirmed actions under a declared workflow",
+        "Detection, bypass, revocation and cleanup require separate outcomes."
+      ]
+    ]
+  },
+  {
+    "marker": "TABLE3",
+    "caption": "Table 3. Study-level evidence map. Statements concern the assessed source versions, not independently rerun tools. Detailed anchors and appraisal are in Online Resource 1.",
+    "headers": [
+      "Study",
+      "Selection and evaluation target",
+      "Label basis and limit"
+    ],
+    "rows": [
+      [
+        "GitHub measurement [1]",
+        "Format-constrained searches and snapshot scans. Unit: Candidate key occurrence and unique key.",
+        "Contextual manual appraisal on sampled candidates; uncertainty retained. Not a census of every credential format."
+      ],
+      [
+        "Credential Digger [2]",
+        "Regex scanner followed by path/snippet/similarity filters. Unit: Discovery emitted by the first scanner.",
+        "Manual samples from retained and rejected discoveries. Filter-stage false negatives do not cover secrets missed by regex."
+      ],
+      [
+        "PassFinder [3]",
+        "Candidate-file search followed by string/context models. Unit: Password or qualifying API-key occurrence in selected files.",
+        "Manually annotated 5,000-file end-to-end set. End-to-end within candidate files differs from repository-wide ascertainment."
+      ],
+      [
+        "Industrial warning workflow [4]",
+        "Warnings emitted by an internal commit-time scanner. Unit: Warning outcome and developer response.",
+        "Usage events and respondent accounts; potential secrets not all independently confirmed. Bypass is not equivalent to confirmed live exposure."
+      ],
+      [
+        "SecretBench [5]",
+        "Regex-informed repository selection; TruffleHog/Gitleaks candidate union. Unit: Labelled candidate occurrence; unique values also described.",
+        "Independent contextual annotation and discussion; no live use of credentials. Candidate-relative ground truth; repeated values and occurrences differ."
+      ],
+      [
+        "Nine-tool comparison [6]",
+        "Runs on SecretBench repositories with date filtering. Unit: Exact-location recovery or repository-level value recovery.",
+        "Similarity matching and sampled manual checking. Matching relation and unit alter the score; temporal snapshot alignment matters."
+      ],
+      [
+        "AssetHarvester [7]",
+        "Python/database subset of SecretBench; remove unmatched assets. Unit: Secret–asset pair.",
+        "Two-person contextual asset identification; disagreement resolution. Pair-level recovery among identifiable assets is not generic secret recall."
+      ],
+      [
+        "KeySentinel [8]",
+        "Cross-platform file collection and tool-assisted candidate labelling. Unit: Labelled secret occurrence across GitHub/PyPI/WeChat.",
+        "Candidate aggregation plus manual annotation. Broad platforms do not establish coverage of all tool-invisible positives."
+      ],
+      [
+        "Android tool review and experiment [9]",
+        "App collection; processing eligibility and adapted tool outputs. Unit: Detected string/key with category restrictions.",
+        "Manual checking; recall replaced by overlap because complete labels unavailable. Union overlap is not absolute recall; unsupported types differ across tools."
+      ],
+      [
+        "SecretBench duplication audit [10]",
+        "SecretBench language subset; exact/near/unique conditions. Unit: Candidate code context.",
+        "Original labels; controlled split scenarios. Duplication relation and test novelty must be declared."
+      ],
+      [
+        "Learning to detect hardcoded secrets [11]",
+        "Language-restricted SecretBench; exact contextual deduplication. Unit: Candidate/context classification.",
+        "Inherited benchmark labels; main versus unseen C# split. Language holdout tests a specific transfer axis, not all deployments."
+      ],
+      [
+        "Issue-report detection [12]",
+        "Keyword-retrieved issues; regex candidates and benign filtering. Unit: Issue-body/candidate pair.",
+        "Manual context labels and additional rater subset; no live validation. Classifier performance is conditional on upstream retrieval/extraction."
+      ],
+      [
+        "Secretron [13]",
+        "SecretBench repository split; cross-language and obfuscation tests. Unit: Candidate/context label; separate Android warning yield.",
+        "Inherited labels and manual app-output review. Repository split is useful but not automatically credential-family disjointness."
+      ],
+      [
+        "LaTeXpOsEd [14]",
+        "Preprint source/comment pipeline and synthetic benchmark. Unit: Sensitive-entity category/span; broader than credentials.",
+        "Controlled synthetic snippets plus targeted real-output manual review. Synthetic label completeness does not establish natural-population coverage."
+      ],
+      [
+        "SenScanner [15]",
+        "Code files combined with generated natural-language statements. Unit: Secret-level occurrence, component label, or file label.",
+        "Controlled mixed-text labels; distinct component and pipeline metrics. Constructed mixtures differ from naturally occurring issue/code distributions."
+      ]
+    ]
+  },
+  {
+    "marker": "TABLE4",
+    "caption": "Table 4. Proposed reporting contract. These are inspectable reporting requirements, not a validated certification score.",
+    "headers": [
+      "Record",
+      "Minimum information",
+      "Reason"
+    ],
+    "rows": [
+      [
+        "Population",
+        "Source kind, acquisition dates, eligibility, processing failures",
+        "Identifies what source-level conclusions represent."
+      ],
+      [
+        "Candidate gate",
+        "Rules/models, versions, order, exclusions and emitted identifiers",
+        "Separates discovery from downstream classification."
+      ],
+      [
+        "Unit",
+        "Occurrence, value, project, pair, warning or action; grouping relation",
+        "Makes numerator and denominator interpretable."
+      ],
+      [
+        "Labels",
+        "Positive meaning, annotators/adjudication, unknown handling, time and authority",
+        "Separates contextual labels from current operational validity."
+      ],
+      [
+        "Matching",
+        "Normalization, location requirements, similarity rule and threshold",
+        "Defines which output recovers which labelled target."
+      ],
+      [
+        "Partition",
+        "Grouping keys, deduplication stage, tuning boundary, transfer axis",
+        "Makes the intended novelty of the test population explicit."
+      ],
+      [
+        "Metric and uncertainty",
+        "Raw counts; averaging; sample design and resampling unit",
+        "Prevents incompatible weighted or sampled scores from being conflated."
+      ],
+      [
+        "Workflow",
+        "Verification mode, triage and observed intervention outcome",
+        "Avoids equating detector output with remediation."
+      ]
+    ]
+  }
+]

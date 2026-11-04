@@ -1,0 +1,122 @@
+[
+  {
+    "id": "S01",
+    "anchor": "B. Manual Review",
+    "found": true,
+    "text_offset": 54180,
+    "extracted_pdf_page": 7,
+    "source_location": "III; V.B"
+  },
+  {
+    "id": "S16",
+    "anchor": "6.1     Regex",
+    "found": true,
+    "text_offset": 43225,
+    "extracted_pdf_page": 7,
+    "source_location": "6.1\u20136.3"
+  },
+  {
+    "id": "S03",
+    "anchor": "4.3     RQ2: End-to-End",
+    "found": true,
+    "text_offset": 47290,
+    "extracted_pdf_page": 7,
+    "source_location": "4.2; 4.3; 5.1"
+  },
+  {
+    "id": "S13",
+    "anchor": "our analysis did not include a confirmation",
+    "found": true,
+    "text_offset": 22382,
+    "extracted_pdf_page": null,
+    "source_location": "Sections 3\u20136"
+  },
+  {
+    "id": "S04",
+    "anchor": "Step 7: Label Candidate Secrets",
+    "found": true,
+    "text_offset": 14584,
+    "extracted_pdf_page": 3,
+    "source_location": "II steps 2\u20138; VI; VII"
+  },
+  {
+    "id": "S05",
+    "anchor": "Recall Cases:",
+    "found": true,
+    "text_offset": 33691,
+    "extracted_pdf_page": 5,
+    "source_location": "IV.B; recall cases"
+  },
+  {
+    "id": "S06",
+    "anchor": "Identifying Assets:",
+    "found": true,
+    "text_offset": 16166,
+    "extracted_pdf_page": 3,
+    "source_location": "III; VI; IX"
+  },
+  {
+    "id": "S15",
+    "anchor": "Labeling True Secrets.",
+    "found": true,
+    "text_offset": 33950,
+    "extracted_pdf_page": 5,
+    "source_location": "3.1\u20133.2; 5"
+  },
+  {
+    "id": "S07",
+    "anchor": "4.4.1 RQ2.3-Methodology",
+    "found": true,
+    "text_offset": 60045,
+    "extracted_pdf_page": 19,
+    "source_location": "3.1; 4.1\u20134.4"
+  },
+  {
+    "id": "S08",
+    "anchor": "three distinct evaluation scenarios",
+    "found": true,
+    "text_offset": 21920,
+    "extracted_pdf_page": 3,
+    "source_location": "II; III.A\u2013B"
+  },
+  {
+    "id": "S09",
+    "anchor": "3.1 Dataset",
+    "found": true,
+    "text_offset": 19172,
+    "extracted_pdf_page": null,
+    "source_location": "3.1; 4; 6"
+  },
+  {
+    "id": "S10",
+    "anchor": "Candidate Secret Extraction and Preprocessing.",
+    "found": true,
+    "text_offset": 29330,
+    "extracted_pdf_page": 4,
+    "source_location": "3.1; 4; threats"
+  },
+  {
+    "id": "S11",
+    "anchor": "4.1.1 Dataset.",
+    "found": true,
+    "text_offset": 34951,
+    "extracted_pdf_page": 8,
+    "source_location": "4.1; 4.4; 4.5"
+  },
+  {
+    "id": "S12",
+    "anchor": "synthetic snippets",
+    "found": true,
+    "text_offset": 37140,
+    "extracted_pdf_page": 7,
+    "source_location": "4.2\u20134.4; 5"
+  },
+  {
+    "id": "S17",
+    "anchor": "4.2.1. Experimental Data",
+    "found": true,
+    "text_offset": 48043,
+    "extracted_pdf_page": 10,
+    "source_location": "3.3\u20133.4; 4.1\u20134.2; 5.3"
+  }
+]

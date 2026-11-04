@@ -1,0 +1,93 @@
+{
+  "scope": "three constructed arithmetic examples; no empirical detector validation",
+  "stage_example": {
+    "A": {
+      "conditional": {
+        "numerator": 45,
+        "denominator": 50,
+        "fraction": "9/10",
+        "decimal": 0.9
+      },
+      "source": {
+        "numerator": 45,
+        "denominator": 100,
+        "fraction": "9/20",
+        "decimal": 0.45
+      }
+    },
+    "B": {
+      "conditional": {
+        "numerator": 72,
+        "denominator": 90,
+        "fraction": "4/5",
+        "decimal": 0.8
+      },
+      "source": {
+        "numerator": 72,
+        "denominator": 100,
+        "fraction": "18/25",
+        "decimal": 0.72
+      }
+    }
+  },
+  "unit_example": {
+    "A": {
+      "occurrence": {
+        "numerator": 100,
+        "denominator": 109,
+        "fraction": "100/109",
+        "decimal": 0.9174311926605505
+      },
+      "value": {
+        "numerator": 1,
+        "denominator": 10,
+        "fraction": "1/10",
+        "decimal": 0.1
+      }
+    },
+    "B": {
+      "occurrence": {
+        "numerator": 10,
+        "denominator": 109,
+        "fraction": "10/109",
+        "decimal": 0.09174311926605505
+      },
+      "value": {
+        "numerator": 10,
+        "denominator": 10,
+        "fraction": "1",
+        "decimal": 1.0
+      }
+    }
+  },
+  "benchmark_extension": {
+    "old": {
+      "A": {
+        "numerator": 10,
+        "denominator": 10,
+        "fraction": "1",
+        "decimal": 1.0
+      },
+      "B": {
+        "numerator": 5,
+        "denominator": 10,
+        "fraction": "1/2",
+        "decimal": 0.5
+      }
+    },
+    "expanded": {
+      "A": {
+        "numerator": 10,
+        "denominator": 20,
+        "fraction": "1/2",
+        "decimal": 0.5
+      },
+      "B": {
+        "numerator": 15,
+        "denominator": 20,
+        "fraction": "3/4",
+        "decimal": 0.75
+      }
+    }
+  }
+}

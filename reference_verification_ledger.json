@@ -1,0 +1,114 @@
+[
+  {
+    "id": "S01",
+    "reference": "1",
+    "identity_status": "NDSS official page and author PDF: identity/title/authors/year/DOI; Crossref request failed",
+    "substantive_verification": "III; V.B",
+    "caveat": "Author/deposited version assessed; hash and URL retained"
+  },
+  {
+    "id": "S16",
+    "reference": "2",
+    "identity_status": "Crossref identity reconciled with paper/publisher/conference evidence; no linked update-to in retrieved metadata",
+    "substantive_verification": "6.1\u20136.3",
+    "caveat": "Author/deposited version assessed; hash and URL retained"
+  },
+  {
+    "id": "S03",
+    "reference": "3",
+    "identity_status": "Crossref identity reconciled with paper/publisher/conference evidence; no linked update-to in retrieved metadata",
+    "substantive_verification": "4.2; 4.3; 5.1",
+    "caveat": "Author/deposited version assessed; hash and URL retained"
+  },
+  {
+    "id": "S13",
+    "reference": "4",
+    "identity_status": "Crossref identity reconciled with paper/publisher/conference evidence; no linked update-to in retrieved metadata",
+    "substantive_verification": "Sections 3\u20136",
+    "caveat": "Publisher or full published text assessed"
+  },
+  {
+    "id": "S04",
+    "reference": "5",
+    "identity_status": "Crossref identity reconciled with paper/publisher/conference evidence; no linked update-to in retrieved metadata",
+    "substantive_verification": "II steps 2\u20138; VI; VII",
+    "caveat": "Author/deposited version assessed; hash and URL retained"
+  },
+  {
+    "id": "S05",
+    "reference": "6",
+    "identity_status": "Crossref identity reconciled with paper/publisher/conference evidence; no linked update-to in retrieved metadata",
+    "substantive_verification": "IV.B; recall cases",
+    "caveat": "Author/deposited version assessed; hash and URL retained"
+  },
+  {
+    "id": "S06",
+    "reference": "7",
+    "identity_status": "Crossref identity reconciled with paper/publisher/conference evidence; no linked update-to in retrieved metadata",
+    "substantive_verification": "III; VI; IX",
+    "caveat": "Author/deposited version assessed; hash and URL retained"
+  },
+  {
+    "id": "S15",
+    "reference": "8",
+    "identity_status": "Crossref identity reconciled with paper/publisher/conference evidence; no linked update-to in retrieved metadata",
+    "substantive_verification": "3.1\u20133.2; 5",
+    "caveat": "Author/deposited version assessed; hash and URL retained"
+  },
+  {
+    "id": "S07",
+    "reference": "9",
+    "identity_status": "Crossref identity reconciled with paper/publisher/conference evidence; no linked update-to in retrieved metadata",
+    "substantive_verification": "3.1; 4.1\u20134.4",
+    "caveat": "Author/deposited version assessed; hash and URL retained"
+  },
+  {
+    "id": "S08",
+    "reference": "10",
+    "identity_status": "Crossref identity reconciled with paper/publisher/conference evidence; no linked update-to in retrieved metadata",
+    "substantive_verification": "II; III.A\u2013B",
+    "caveat": "Author/deposited version assessed; hash and URL retained"
+  },
+  {
+    "id": "S09",
+    "reference": "11",
+    "identity_status": "Crossref identity reconciled with paper/publisher/conference evidence; no linked update-to in retrieved metadata",
+    "substantive_verification": "3.1; 4; 6",
+    "caveat": "Publisher or full published text assessed"
+  },
+  {
+    "id": "S10",
+    "reference": "12",
+    "identity_status": "Crossref identity reconciled with paper/publisher/conference evidence; no linked update-to in retrieved metadata",
+    "substantive_verification": "3.1; 4; threats",
+    "caveat": "Author/deposited version assessed; hash and URL retained"
+  },
+  {
+    "id": "S11",
+    "reference": "13",
+    "identity_status": "Crossref identity reconciled with paper/publisher/conference evidence; no linked update-to in retrieved metadata",
+    "substantive_verification": "4.1; 4.4; 4.5",
+    "caveat": "Author/deposited version assessed; hash and URL retained"
+  },
+  {
+    "id": "S12",
+    "reference": "14",
+    "identity_status": "USENIX publication page and BibTeX: authors, title, year, venue, pages 247\u2013261; no DOI invented",
+    "substantive_verification": "4.2\u20134.4; 5",
+    "caveat": "Publisher or full published text assessed"
+  },
+  {
+    "id": "S17",
+    "reference": "15",
+    "identity_status": "Crossref identity reconciled with paper/publisher/conference evidence; no linked update-to in retrieved metadata",
+    "substantive_verification": "3.3\u20133.4; 4.1\u20134.2; 5.3",
+    "caveat": "Publisher or full published text assessed"
+  },
+  {
+    "id": "S14",
+    "reference": "16",
+    "identity_status": "Crossref 10.1145/3832140 and official ISSTA programme verified",
+    "substantive_verification": "Official conference abstract only",
+    "caveat": "Full text inaccessible; not core appraisal"
+  }
+]

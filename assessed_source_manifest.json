@@ -1,0 +1,152 @@
+[
+  {
+    "id": "S01",
+    "reference": 1,
+    "url": "https://bradreaves.net/publication/mmr19/mmr19.pdf",
+    "assessed_version": "Public author/deposited or publisher PDF; see URL and hash",
+    "sha256": "bf730a7609014089ed9e5843424aa01c3efc83ce01f602af3333c0321996ca8d",
+    "bytes": 408295,
+    "retrieved_date": "2026-11-02",
+    "full_text_access": true
+  },
+  {
+    "id": "S16",
+    "reference": 2,
+    "url": "https://www.scitepress.org/Papers/2021/102381/102381.pdf",
+    "assessed_version": "Public author/deposited or publisher PDF; see URL and hash",
+    "sha256": "3a63cd5545ca0d069cbdd0c4f59e28ca9a90d7c2cbbc8625e431457d6dc89b04",
+    "bytes": 1021766,
+    "retrieved_date": "2026-11-02",
+    "full_text_access": true
+  },
+  {
+    "id": "S03",
+    "reference": 3,
+    "url": "https://aoa0.github.io/pubs/icse22.pdf",
+    "assessed_version": "Public author/deposited or publisher PDF; see URL and hash",
+    "sha256": "f221713f83b92dfef4844fc44506dfda082dcff71ea1da757ddd97bd49bc46cf",
+    "bytes": 1214035,
+    "retrieved_date": "2026-11-02",
+    "full_text_access": true
+  },
+  {
+    "id": "S13",
+    "reference": 4,
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8928718/fullTextXML",
+    "assessed_version": "Full-text XML of published article, Europe PMC",
+    "sha256": "cf681aa881855730d24c6ad45fde5d32f06049fb73123120cba76b78bfbcba5c",
+    "bytes": 120527,
+    "retrieved_date": "2026-11-02",
+    "full_text_access": true
+  },
+  {
+    "id": "S04",
+    "reference": 5,
+    "url": "https://bradreaves.net/publication/bnrw23b/bnrw23b.pdf",
+    "assessed_version": "Public author/deposited or publisher PDF; see URL and hash",
+    "sha256": "b46752cd006aad3b41bed0e7eeb3244ed3b095cc682f01cb7b3966941be35a4d",
+    "bytes": 84228,
+    "retrieved_date": "2026-11-02",
+    "full_text_access": true
+  },
+  {
+    "id": "S05",
+    "reference": 6,
+    "url": "https://bradreaves.net/publication/bcrw23/bcrw23.pdf",
+    "assessed_version": "Public author/deposited or publisher PDF; see URL and hash",
+    "sha256": "ddf12e2d0fbbe763d091bd1729eff70c59de0902a8d2c8bb0bd66afac936524f",
+    "bytes": 625324,
+    "retrieved_date": "2026-11-02",
+    "full_text_access": true
+  },
+  {
+    "id": "S06",
+    "reference": 7,
+    "url": "https://bradreaves.net/publication/beo%2B25/beo%2B25.pdf",
+    "assessed_version": "Public author/deposited or publisher PDF; see URL and hash",
+    "sha256": "35e88f40d08c9f3eaf3c1b796aaac9403572332f788b55d87067c395c50e0612",
+    "bytes": 1385909,
+    "retrieved_date": "2026-11-02",
+    "full_text_access": true
+  },
+  {
+    "id": "S15",
+    "reference": 8,
+    "url": "https://duanhaixin.cn/papers/2025_Hey-Your-Secrets-Leaked-Detecting-and-Characterizing-Secret-Leakage-in.pdf",
+    "assessed_version": "Author-hosted manuscript of published SP 2025 paper",
+    "sha256": "0082a87864d568d5783c0dd731292ec4f415ccc8461cc954821f67b8cacc9776",
+    "bytes": 1217018,
+    "retrieved_date": "2026-11-02",
+    "full_text_access": true
+  },
+  {
+    "id": "S07",
+    "reference": 9,
+    "url": "https://arxiv.org/pdf/2412.10922v2",
+    "assessed_version": "Public author/deposited or publisher PDF; see URL and hash",
+    "sha256": "3cde34df5f566561c7415c44f84e0c87ba1baf000257f50e39757045ffcb1468",
+    "bytes": 698746,
+    "retrieved_date": "2026-11-02",
+    "full_text_access": true
+  },
+  {
+    "id": "S08",
+    "reference": 10,
+    "url": "https://arxiv.org/pdf/2601.22946v1",
+    "assessed_version": "Public author/deposited or publisher PDF; see URL and hash",
+    "sha256": "1e7ce53b58245256d7ef507e2421c6778070a6306692d66f279bd95fa77d787d",
+    "bytes": 435334,
+    "retrieved_date": "2026-11-02",
+    "full_text_access": true
+  },
+  {
+    "id": "S09",
+    "reference": 11,
+    "url": "https://link.springer.com/article/10.1007/s10664-026-10929-w",
+    "assessed_version": "Publisher full-text HTML",
+    "sha256": "e3864523938decce7a6afcddfc21eb5829001e8ccd207ba176c159dc6c2f9987",
+    "bytes": 450785,
+    "retrieved_date": "2026-11-02",
+    "full_text_access": true
+  },
+  {
+    "id": "S10",
+    "reference": 12,
+    "url": "https://arxiv.org/pdf/2410.23657",
+    "assessed_version": "Public author/deposited or publisher PDF; see URL and hash",
+    "sha256": "c924d33596fc682e6715375b05ec3e825bc6ed30a0cc52068c70d5b5a59546fe",
+    "bytes": 782959,
+    "retrieved_date": "2026-11-02",
+    "full_text_access": true
+  },
+  {
+    "id": "S11",
+    "reference": 13,
+    "url": "https://arxiv.org/pdf/2608.04523",
+    "assessed_version": "Public author/deposited or publisher PDF; see URL and hash",
+    "sha256": "50c4d9c920338a47704d9b17eddff2e8da380011c2545278c80d928946782379",
+    "bytes": 1381885,
+    "retrieved_date": "2026-11-02",
+    "full_text_access": true
+  },
+  {
+    "id": "S12",
+    "reference": 14,
+    "url": "https://www.usenix.org/system/files/woot26-dubniczky.pdf",
+    "assessed_version": "Public author/deposited or publisher PDF; see URL and hash",
+    "sha256": "07590e24d4c83a447f8d120aac8875636978e9aafffd24f03dbee587e308e3a5",
+    "bytes": 4078594,
+    "retrieved_date": "2026-11-02",
+    "full_text_access": true
+  },
+  {
+    "id": "S17",
+    "reference": 15,
+    "url": "https://mdpi-res.com/d_attachment/information/information-17-00648/article_deploy/information-17-00648.pdf",
+    "assessed_version": "Public author/deposited or publisher PDF; see URL and hash",
+    "sha256": "c22308504bc0063dbbf3b681acd15365e27e82777f765dfd751d2d49fed57ce8",
+    "bytes": 738978,
+    "retrieved_date": "2026-11-02",
+    "full_text_access": true
+  }
+]
